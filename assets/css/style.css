@@ -1014,7 +1014,7 @@ section {
 }
 
 .skills .progress .skill {
-  padding: 0;
+  padding: 10px;
   margin: 0 0 6px 0;
   text-transform: uppercase;
   display: block;
@@ -1253,13 +1253,60 @@ section {
   background: #fff;
 }
 
-.testimonials .testimonial-item .testimonial-img {
+.testimonials .product-item {
+  box-sizing: content-box;
+    padding: 10px;
+    position: relative;
+    background: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid #ffff;  
+    flex-direction: column;
+    border-radius: 5px;
+    -webkit-box-shadow: -1px 0px 11px 3px rgba(199,199,199,1);
+    -moz-box-shadow: -1px 0px 11px 3px rgba(199,199,199,1);
+    box-shadow: -1px 0px 11px 3px rgba(199,199,199,1);
+    margin: 15px 0;
+}
+
+.testimonials .product-item:hover {
+  background: #faf9f8;
+  cursor: pointer;
+}
+
+.testimonials .product-cart-icon {
+  color: #000;
+  font-size: 14px;
+}
+
+.testimonials .product-item-col {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+
+.testimonials .testimonial-item .product-img {
   width: 90px;
-  border-radius: 50px;
+  border-radius: 5px;
   border: 6px solid #fff;
   float: left;
   margin: 0 10px 0 0;
 }
+
+
+.testimonials .product-item .product-img {
+  width: 90px;
+  border-radius: 5px;
+  border: 6px solid #fff;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
 
 .testimonials .testimonial-item h3 {
   font-size: 18px;
@@ -1268,7 +1315,19 @@ section {
   color: #111;
 }
 
+.testimonials .product-item h3 {
+  font-size: 14px;
+  margin: 10px 0 10px 0;
+  color: #111;
+}
+
 .testimonials .testimonial-item h4 {
+  font-size: 14px;
+  color: #999;
+  margin: 0;
+}
+
+.testimonials .product-item h4 {
   font-size: 14px;
   color: #999;
   margin: 0;
@@ -1279,11 +1338,24 @@ section {
   font-size: 26px;
 }
 
+.testimonials .product-item .quote-icon-left, .testimonials .product-item .quote-icon-right {
+  color: #fecfc0;
+  font-size: 26px;
+}
+
 .testimonials .testimonial-item .quote-icon-left {
   display: inline-block;
   left: -5px;
   position: relative;
 }
+
+
+.testimonials .product-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
 
 .testimonials .testimonial-item .quote-icon-right {
   display: inline-block;
@@ -1292,11 +1364,27 @@ section {
   top: 10px;
 }
 
+.testimonials .product-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+
+
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 15px 0 0 0;
   padding: 0;
 }
+
+
+.testimonials .product-item p {
+  font-style: italic;
+  margin: 15px 0 0 0;
+  padding: 0;
+}
+
 
 /*--------------------------------------------------------------
 # Contact
@@ -2192,3 +2280,8 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+
+/*--------------------------------------------------------------
+# product
+--------------------------------------------------------------*/
