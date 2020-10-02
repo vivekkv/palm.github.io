@@ -36,19 +36,20 @@
 
 <body>
 
-  <section id="topbar" class="d-none d-lg-block">
-    <div class="container d-flex">
-      <div class="contact-info mr-auto">
-        <i class="icofont-envelope"></i><a href="mailto:info@pentaworld.in">info@pentaworld.in</a>
-        <i class="icofont-phone"></i> +02612791003
-      </div>
-      <div class="social-links">
-        <a href="signUp.html" class="ui-user"><i class="icofont-ui-user"></i> Sign Up</a>
-        <a href="login.html" class="login"><i class="icofont-login"></i> Login</a>
-        <a href="#" class="cart"><i class="icofont-cart"></i> Cart (0)</a>
-      </div>
+<!-- ======= Top Bar ======= -->
+<section id="topbar" class="d-none d-lg-block">
+  <div class="container d-flex">
+    <div class="contact-info mr-auto">
+      <i class="icofont-envelope"></i><a href="mailto:info@pentaworld.in">info@pentaworld.in</a>
+      <i class="icofont-phone"></i> +02612791003
     </div>
-  </section>     
+    <div class="social-links">
+      <a href="signUp.html" class="ui-user"><i class="icofont-ui-user"></i> Sign Up</a>
+      <a href="login.html" class="login"><i class="icofont-login"></i> Login</a>
+      <a href="#" class="cart"><i class="icofont-cart"></i> Cart (0)</a>
+    </div>
+  </div>
+</section>      
 
   <!-- ======= Header ======= -->
   <header id="header">
@@ -62,7 +63,7 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li ><a href="index.html">Home</a></li>
-          <li ><a href="aboutus.html">About</a></li>
+          <li><a href="aboutus.html">About</a></li>
           <li><a href="products.html">Products</a></li>
           <li><a href="business.html">Business</a></li>
           <li class="drop-down"><a href="">Gallery</a>
@@ -73,96 +74,36 @@
               <li><a href="ranks.html">PIPL Ranks</a></li>
             </ul>
           </li>
-          <li><a href="grievanceCell.html">Grievance Cell</a></li>
-          <li class="active"><a href="contact.html">Contact Us</a></li>
+          <li  class="active"><a href="grievanceCell.html">Grievance Cell</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
         </ul>
       </nav><!-- .nav-menu -->
+
     </div>
   </header><!-- End Header -->
 
   <main id="main">
 
-    <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container">
-
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>Contact</h2>
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Contact</li>
-          </ol>
-        </div>
-
-      </div>
-    </section><!-- End Breadcrumbs -->
-
-    <!-- ======= Contact Section ======= -->
-    <div class="map-section">
-        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3719.5123356030654!2d72.82524945767037!3d21.21152303059367!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e9286444965%3A0x2165645e0726a6da!2sKrishna%20Building%2C%20Ved%20Rd%2C%20Prabhu%20Nagar%202%2C%20Kubernagar%2C%20Katargam%2C%20Surat%2C%20Gujarat%20395004!5e0!3m2!1sen!2sin!4v1601344904839!5m2!1sen!2sin"  frameborder="0" allowfullscreen></iframe>
-    </div>
-
     <section id="contact" class="contact">
       <div class="container">
-
-        <div class="row justify-content-center" data-aos="fade-up">
-
-          <div class="col-lg-10">
-
-            <div class="info-wrap">
-              <div class="row">
-                <div class="col-lg-4 info">
-                  <i class="icofont-google-map"></i>
-                  <h4>Location:</h4>
-                  <p> a-17,Krishna Nagar, 2nd floor,
-                    <br>Chokhi Wadi, Near Adajan, Surat - 395 009</p>
-                </div>
-
-                <div class="col-lg-4 info mt-4 mt-lg-0">
-                  <i class="icofont-envelope"></i>
-                  <h4>Email:</h4>
-                  <p><a  class="__cf_email__" data-cfemail="5831363e37183d20393528343d763b3735">info@pentaworld.in</a></p>
-                </div>
-
-                <div class="col-lg-4 info mt-4 mt-lg-0">
-                  <i class="icofont-phone"></i>
-                  <h4>Call:</h4>
-                  <p>02612791003<br> 9400899517 (Admin)</p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
 
         <div class="row mt-5 justify-content-center" data-aos="fade-up">
           <div class="col-lg-10">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="form-row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-                <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="col-md-12 form-group">
+                  <input type="text" name="DistributerID" class="form-control" id="DistributerID" placeholder="Your Distributer ID" data-rule="minlen:4" data-msg="Please enter Distributer ID" />
                   <div class="validate"></div>
                 </div>
               </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
+              <div class="form-row">
+                <div class="col-md-12 form-group">
+                  <input type="password" class="form-control" name="password" id="password" placeholder="Your Password" data-msg="Please enter a password" />
+                  <div class="validate"></div>
+                </div>
               </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <a class="forgot-password-text" href="forgotPassword.html">Forgot Password</a>
+              <div class="text-center"><button type="submit">Login</button></div>
             </form>
           </div>
 
@@ -224,10 +165,6 @@
           &copy; Copyright <strong><span>Pentaworld</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flattern-multipurpose-bootstrap-template/ -->
           Designed by <a href="">K</a>
         </div>
       </div>

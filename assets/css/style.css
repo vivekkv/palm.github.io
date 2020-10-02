@@ -2375,3 +2375,8 @@ section {
 #article-product-info .entry-img {
   max-height: inherit !important;
 }
+
+.forgot-password-text {
+  text-decoration-line: underline !important;
+    cursor: pointer;
+}
