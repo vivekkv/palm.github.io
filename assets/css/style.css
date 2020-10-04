@@ -2380,3 +2380,89 @@ section {
   text-decoration-line: underline !important;
     cursor: pointer;
 }
+
+#cart-items, #price-wrapper {
+  border: 1px solid #e8e8e8;
+  min-height: 300px;
+  border-radius: 6px;
+}
+
+#cart-title-wrapper h2, #price-wrapper h2 {
+  padding: 15px 10px;
+  font-size: 19px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+#price-wrapper {
+
+}
+
+#cart-title-wrapper{ 
+
+}
+
+#cart-items-footer {
+  padding: 10px;
+  text-align: right;
+}
+
+#cart-title-body {
+  min-height: 300px;
+}
+
+.cart-place-order-btn {
+  border: 0;
+  background: #3F51B5;
+  color: #fff;
+  padding: 15px;
+  border-radius: 2px;
+  width: 300px;
+}
+
+.cart-item-img {
+  width:70px;
+  border-radius: 5px;
+}
+
+.cart-item {
+  padding: 10px;
+  border-bottom: 1px solid #ececec;
+}
+
+.cart-item-title {
+  font-size: 18px;
+}
+
+.cart-item-remove-ico {
+  font-size: 21px;
+  margin-top: 20px;
+  cursor: pointer;
+  float: right;
+  color: #ef0000;
+}
+
+#price-wrapper ul {
+    margin: 0;
+    line-height: 40px;
+    padding: 0 15px;
+    min-height: 200px;
+    list-style: none;
+}
+
+#price-wrapper ul li label {
+  width: 45%;
+}
+
+#price-wrapper ul li label:first-child {
+  text-align: left;
+}
+
+#price-wrapper ul li label:last-child { 
+  text-align: right;
+}
+
+#price-wrapper ul li:last-child {
+  margin-top: 50px;
+  border-top: 1px dotted #b3b3b3;
+  font-weight: bold;
+}
