@@ -1617,6 +1617,7 @@ section {
   max-height: 400px;
   margin: -30px -30px 20px -30px;
   overflow: hidden;
+  text-align: center;
 }
 
 .blog .entry .entry-title {
