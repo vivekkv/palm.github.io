@@ -939,12 +939,18 @@ section {
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
 }
 
 .team .member .member-img {
   position: relative;
   overflow: hidden;
   max-height: 350px
+}
+
+.team .member .member-img img {
+  max-height: 200px !important;
+  margin-top: 20px;
 }
 
 .team .member .social {
